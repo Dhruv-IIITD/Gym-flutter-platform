@@ -224,14 +224,6 @@ for architecture diagrams, design decisions, state management flow, and implemen
 
 ---
 
-# Demo Video
-
-See the walkthrough demo below:
-
-[demo.mp4](./demo.mp4)
-
----
-
 # Notes
 
 - Placeholder Firebase configuration is intentionally committed for compilation/demo purposes.
