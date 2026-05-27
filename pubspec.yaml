@@ -1,0 +1,35 @@
+name: wtf_flutter_test_workspace
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+
+workspace:
+  - packages/shared
+  - apps/guru_app
+  - apps/trainer_app
+
+dev_dependencies:
+  melos: ^7.8.0
+
+melos:
+  scripts:
+    analyze:
+      exec: dart analyze --fatal-infos
+      description: Run dart analyze in all packages
+
+    test:
+      exec: flutter test
+      description: Run tests in all packages
+      packageFilters:
+        dirExists: test
+
+    build_runner:
+      exec: dart run build_runner build --delete-conflicting-outputs
+      description: Run build_runner in all packages
+      packageFilters:
+        dependsOn: build_runner
+
+    clean:
+      exec: flutter clean
+      description: Clean all packages

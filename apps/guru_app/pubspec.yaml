@@ -1,0 +1,29 @@
+name: guru_app
+description: WTF Guru App - Member side
+version: 1.0.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared:
+  flutter_riverpod: ^3.3.1
+  firebase_core:
+  cloud_firestore:
+  go_router:
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  hmssdk_flutter: ^1.11.1
+  permission_handler: ^11.3.1
+  http:
+  google_fonts:
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0

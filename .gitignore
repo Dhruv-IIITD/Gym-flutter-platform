@@ -1,0 +1,25 @@
+# Flutter
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Node
+**/node_modules/
+
+# Env
+**/.env
+
+# Generated
+**/*.g.dart
+
+# OS
+.DS_Store
